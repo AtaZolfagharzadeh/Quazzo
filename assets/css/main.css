@@ -1,11 +1,7 @@
-.section {
-        padding: 30px
-}
-
-.section-follow .fa-4x {
-        margin: 5px 10px;
-}
-
-.section-contact h5 {
-        margin-bottom: 30px;
+.main-header {
+        background: url("../img/background.jpg");
+        background-size: cover;
+        background-position: center;
+        min-height: 600px;
+        color: white;
 }

@@ -19,343 +19,48 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
     </head>
 
-    <body id="home" class="scrollspy">
-        <!-- *** Top Navbar *** -->
-        <div class="navbar-fixed">
-            <nav class="teal">
+    <body>
+        <!-- *** Header *** -->
+        <header class="main-header">
+            <nav class="transparent">
                 <div class="container">
                     <div class="nav-wrapper">
-                        <a href="#home" class="brand-logo">Travel</a>
+                        <a href="#" class="brand-logo">Quazzu</a>
                         <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="solutions.html">Solutions</a></li>
+                            <li><a href="Signup.html">Sign Up</a></li>
+                            <li><a class="btn purple waves-effect">Login</a></li>
                             <li>
-                                <a href="#home">Home</a>
+                                <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#search">Search</a>
+                                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="#popular">Popular Places</a>
+                                <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="sidenav" id="mobile-nav">
+                            <h4 class="purple-text text-darken-4 center">Quazzu</h4>
+                            <li><div class="divider"></div></li>
+                            <li>
+                                <a href="index.html"><i class="fa fa-home grey-text text-darken-4"></i>Home</a>
                             </li>
                             <li>
-                                <a href="#gallary">Gallary</a>
+                                <a href="solutions.html"><i class="fa fa-cog grey-text text-darken-4"></i>Solutions</a>
                             </li>
                             <li>
-                                <a href="#contact">Contact</a>
+                                <a href="Signup.html"><i class="fa fa-users grey-text text-darken-4"></i>Sign Up</a>
                             </li>
+                            <li><div class="divider"></div></li>
+                            <li><a class="btn purple waves-effect">Login</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
-        </div>
-        <!-- /Top Navbar -->
-
-        <!-- *** Side Navbar *** -->
-        <ul class="sidenav" id="mobile-nav">
-            <li>
-                <a href="#home">Home</a>
-            </li>
-            <li>
-                <a href="#search">Search</a>
-            </li>
-            <li>
-                <a href="#popular">Popular Places</a>
-            </li>
-            <li>
-                <a href="#gallary">Gallary</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-        <!-- /Side Navbar -->
-
-        <!-- *** Slider *** -->
-        <div class="slider">
-            <ul class="slides">
-                <li>
-                    <img src="assets/img/resort1.jpg" />
-                    <div class="caption center-align hide-on-small-only">
-                        <h3>This is our big Tagline!</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                        <a class="waves-effect waves-light btn next-slide">Submit</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/img/resort2.jpg" />
-                    <div class="caption left-align hide-on-small-only">
-                        <h3>Left Aligned Caption</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                        <a href="btn large-btn"></a>
-                        <a class="waves-effect waves-light btn next-slide" onclick="nextSlide()">Submit</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/img/resort3.jpg" />
-                    <div class="caption right-align hide-on-small-only">
-                        <h3>Right Aligned Caption</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                        <a class="waves-effect waves-light btn next-slide" onclick="nextSlide()">Submit</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <!-- /Slider -->
-
-        <!-- *** Section: Search *** -->
-        <section class="teal white-text section scrollspy" id="search">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12">
-                        <div class="row center">
-                            <h3>Search Destination</h3>
-                            <div class="input-field col s8 push-s2">
-                                <input type="text" id="autocomplete-input" class="autocomplete white-text" />
-                                <label for="autocomplete-input" class="white-text">Search</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Search -->
-
-        <!-- *** Section: Introduce *** -->
-        <section class="section grey lighten-4 center">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 m6 l4">
-                        <div class="card">
-                            <div class="card-content">
-                                <i class="material-icons large teal-text">room</i>
-                                <h4 class="card-title">Card Title</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, ipsum.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m6 l4">
-                        <div class="card">
-                            <div class="card-content">
-                                <i class="material-icons large teal-text">room</i>
-                                <h4 class="card-title">Card Title</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, ipsum.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m6 l4">
-                        <div class="card">
-                            <div class="card-content">
-                                <i class="material-icons large teal-text">room</i>
-                                <h4 class="card-title">Card Title</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, ipsum.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Introduce -->
-
-        <!-- *** Section: Popular *** -->
-        <section class="section section-popular scrollspy" id="popular">
-            <div class="container">
-                <div class="row">
-                    <h4 class="center"><span class="teal-text">Popular</span> Places</h4>
-                    <div class="col s12 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="assets/img/resort1.jpg" alt="" />
-                                <span class="card-title">Cancun, Mexico</span>
-                            </div>
-                            <div class="card-content">
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis dolorum non animi quas odio recusandae.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="assets/img/resort2.jpg" alt="" />
-                                <span class="card-title">The Bahamas</span>
-                            </div>
-                            <div class="card-content">
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis dolorum non animi quas odio recusandae.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="assets/img/resort3.jpg" alt="" />
-                                <span class="card-title">Nova Scotia</span>
-                            </div>
-                            <div class="card-content">
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis dolorum non animi quas odio recusandae.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 center">
-                        <a href="#contact" class="btn btn-large grey darken-3">
-                            <i class="material-icons left">send</i>
-                            Contact For Booking
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Popular -->
-
-        <!-- *** Section: Follow *** -->
-        <section class="section section-follow teal darken-2 white-text center">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12">
-                        <h4>Follow Travel</h4>
-                        <p>Follow us on social media for special offers</p>
-                        <a href="https://facebook.com" target="_blank" class="white-text">
-                            <i class="fab fa-facebook fa-4x"></i>
-                        </a>
-                        <a href="https://twitter.com" target="_blank" class="white-text">
-                            <i class="fab fa-twitter fa-4x"></i>
-                        </a>
-                        <a href="https://facebook.com" target="_blank" class="white-text">
-                            <i class="fab fa-linkedin fa-4x"></i>
-                        </a>
-                        <a href="https://facebook.com" target="_blank" class="white-text">
-                            <i class="fab fa-google-plus fa-4x"></i>
-                        </a>
-                        <a href="https://facebook.com" target="_blank" class="white-text">
-                            <i class="fab fa-pinterest fa-4x"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Follow -->
-
-        <!-- *** Section: Gallary *** -->
-        <section class="section section-gallary scrollspy" id="gallary">
-            <div class="container">
-                <h4 class="center"><span class="teal-text">Photo</span> Gallary</h4>
-                <div class="row">
-                    <div class="col s12 m3">
-                        <img class="materialboxed responsive-img" src="assets/img/resort1.jpg" alt="" />
-                    </div>
-                    <div class="col s12 m3">
-                        <img class="materialboxed responsive-img" src="assets/img/resort2.jpg" alt="" />
-                    </div>
-                    <div class="col s12 m3">
-                        <img class="materialboxed responsive-img" src="assets/img/resort3.jpg" alt="" />
-                    </div>
-                    <div class="col s12 m3">
-                        <img class="materialboxed responsive-img" src="assets/img/resort1.jpg" alt="" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m3">
-                        <img class="materialboxed responsive-img" src="assets/img/resort1.jpg" alt="" />
-                    </div>
-                    <div class="col s12 m3">
-                        <img class="materialboxed responsive-img" src="assets/img/resort1.jpg" alt="" />
-                    </div>
-                    <div class="col s12 m3">
-                        <img class="materialboxed responsive-img" src="assets/img/resort3.jpg" alt="" />
-                    </div>
-                    <div class="col s12 m3">
-                        <img class="materialboxed responsive-img" src="assets/img/resort2.jpg" alt="" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m3">
-                        <img class="materialboxed responsive-img" src="assets/img/resort1.jpg" alt="" />
-                    </div>
-                    <div class="col s12 m3">
-                        <img class="materialboxed responsive-img" src="assets/img/resort2.jpg" alt="" />
-                    </div>
-                    <div class="col s12 m3">
-                        <img class="materialboxed responsive-img" src="assets/img/resort3.jpg" alt="" />
-                    </div>
-                    <div class="col s12 m3">
-                        <img class="materialboxed responsive-img" src="assets/img/resort1.jpg" alt="" />
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Gallary -->
-
-        <!-- *** Section: Contact *** -->
-        <section class="section section-contact scrollspy" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 m6">
-                        <div class="card-panel teal white-text center">
-                            <i class="material-icons medium">email</i>
-                            <h5>Contact Us For Booking</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laboriosam non temporibus, cupiditate numquam iste mollitia veniam magni! Soluta, ducimus?
-                            </p>
-                        </div>
-                        <ul class="collection with-header">
-                            <li class="collection-header">
-                                <h4>Location</h4>
-                            </li>
-                            <li class="collection-item">
-                                Travel Agency
-                            </li>
-                            <li class="collection-item">
-                                555 Beach rd, Suite 33
-                            </li>
-                            <li class="collection-item">
-                                Miami FL, 55555
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col s12 m6">
-                        <div class="card-panel grey lighten-3">
-                            <h5>Please fill out this form</h5>
-                            <div class="input-field">
-                                <input type="text" placeholder="Name" id="name" />
-                                <label for="name">Name</label>
-                            </div>
-                            <div class="input-field">
-                                <input type="text" placeholder="Email" id="email" />
-                                <label for="email">Email</label>
-                            </div>
-                            <div class="input-field">
-                                <input type="text" placeholder="Phone" id="phone" />
-                                <label for="phone">Phone</label>
-                            </div>
-                            <div class="input-field">
-                                <textarea class="materialize-textarea" placeholder="Message" id="message"></textarea>
-                                <label for="message">Message</label>
-                            </div>
-                            <input type="submit" value="Submit" class="btn" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Gallary -->
-
-        <!-- *** Footer *** -->
-        <footer class="section teal darken-2 white-text center">
-            <p class="flow-text">Travel &copy; 2020</p>
-        </footer>
-        <!-- /Footer -->
+        </header>
 
         <!-- Import Jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -364,28 +69,7 @@
 
         <script>
             $(document).ready(function () {
-                // init Side Nav
                 $(".sidenav").sidenav();
-
-                // init Slider
-                $(".slider").slider({
-                    indicators: false,
-                });
-
-                // init Material Boxed
-                $(".materialboxed").materialbox();
-
-                // init Scrollspy
-                $(".scrollspy").scrollSpy();
-
-                // init Search Auto Complete
-                $("input.autocomplete").autocomplete({
-                    data: {
-                        Apple: null,
-                        Microsoft: null,
-                        Google: "https://placehold.it/250x250",
-                    },
-                });
             });
         </script>
     </body>
